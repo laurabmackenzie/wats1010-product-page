@@ -1,8 +1,173 @@
 /* Styles for Product Page Customization */
+
+
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+  margin: 10px 50px 10px 50px;
+  color: rgb(54, 80, 76);
+}
+
+main {
+  padding-top: 30px;
+}
+
+nav {
+  padding: 40px 0 10px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+a#contact {
+  color: rgb(54, 80, 76);
+  text-decoration: none;
+}
+
+a#contact:hover {
+  color: #87DCC8;
+}
+
+nav#social-media img {
+  margin: 0 15px 0 15px;
+  display: inline;
+  width: 30px;
+  height: 30px;
+}
+
+nav#social-media img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+nav#social-media {
+  text-align: center;
+}
+
+div#slogan {
+  font-size: 32px;
+  text-align: left;
+  padding: 30px 100px 0 120px;
+}
+
+section#features {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+div#features {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+div#features {
+  padding-left: 20px;
+}
+
+div#feature img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 4px 15px 0 0;
+}
+
+div#feature p {
+  font-size: 25px;
+}
+
+p#feature:hover {
+  font-weight: bold;
+  transition: 1s font-weight;
+}
+
+button.btn {
+  font-size: 30px;
+}
+
+.btn-block {
+  margin-top: 40px;
+  background-color: rgb(54, 80, 76);
+  color: white;
+  border:none;
+}
+
+.btn-block:hover, .btn-block:focus {
+  background-color: #87DCC8;
+  transition: 2s background-color;
+  border:none;
+  color:white;
+  outline:none;
+}
+.btn-block:active {
+  color:white;
+  background-color: #87DCC8;
+  border:none;
+}
+
+ul#address {
+  list-style-type: none;
+}
+
+img#largearrow {
+  width: 80%;
+  margin: 10%;
+}
+
+img#largearrow:hover {
+  transform: rotate(10deg);
+  transition: 0.5s transform;
+}
+
+aside#testimonials {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+aside#testimonials div {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+aside#testimonials div img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 0 15px 0 0;
+}
+
+p#testimonial1 {
+  padding-top: 5px;
+}
+
+p#testimonial3 {
+  padding-top: 30px;
+}
+
+p#contact {
+  padding: 0 50px 0 40px;
+  font-size: 20px;
+}
+
+footer {
+  padding: 50px 0 0 0;
+  font-size: 15px;
+}
+
+footer ul#address {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+footer p#contact {
+  border-radius: 20px;
+  padding: 30px;
+  text-align:center;
+  word-spacing: 40px;
+  background-color: rgb(54, 80, 76);
+  color: white;
+}
+
+p#contact:hover {
+  background-color: white;
+  color: rgb(54, 80, 76);
+  transition: 1s background-color;
 }

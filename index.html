@@ -10,71 +10,74 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
   <link rel="stylesheet" href="main.css">
-
-  <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
 
 <body>
-  <div class="container-fixed">
-    <div class="row">
+  <div class="container">
+    <header class="row">
       <div class="col-md-6">
-        <img class="img-responsive" src="assets/logos/api_superstore_logo_bg.png" alt="Logo">
+        <img class="img-responsive" src="photos/api_superstore_logo_drkgrn.png" alt="Logo">
+      </div>
+      <nav class="col-md-4">
+        <a id="contact" href="mailto:info@apisuperstore.com">Contact</a>
+      </nav>
+      <nav class="col-md-2" id="social-media">
+        <a href="https://www.facebook.com/sharer/sharer.php">
+          <img class="img-responsive" src="photos/facebook.png" alt="Facebook"></a><a href="https://twitter.com/intent/tweet?text=API%20Superstore&url=https://apisuperstore.com"><img class="img-responsive" src="photos/twitter.png" alt="Twitter"></a>
+      </nav>
+    </header>
+    <main class="row">
+      <div class="col-md-6" id="slogan">Fast Access to the Most Cutting-Edge APIs&nbsp;Online
+        <div class="row" id="features">
+          <section class="col-md-12" id="features">
+            <div class="row" id="feature">
+              <img class="img-responsive" src="photos/smallarrow.png" id="small-arrow" alt="Small Arrow">
+              <p id="feature">Convenient Catalog</p>
+            </div>
+            <div class="row" id="feature">
+              <img class="img-responsive" src="photos/smallarrow.png" id="small-arrow" alt="Small Arrow">
+              <p id="feature">Easy Payment Options</p>
+            </div>
+            <div class="row" id="feature">
+              <img class="img-responsive" src="photos/smallarrow.png" id="small-arrow" alt="Small Arrow">
+              <p id="feature">Enhance Your Business</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="col-md-6" id="video"><iframe width="100%" height="320px" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </main>
+    <section class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-4" id="call-to-action">
+        <button class="btn btn-block">Sign Up Now!</button>
+        <div class="row">
+          <img class="img-responsive" src="photos/largearrow.png" id="largearrow" alt="Arrow">
+        </div>
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-1">Contact</div>
-      <div class="col-md-4">Share on <a href="https://www.facebook.com/sharer/sharer.php">Facebook</a> <a href="https://twitter.com/intent/tweet">Twitter</a></div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">Fast Access to the Most Cutting-Edge APIs Online!
+      <aside class="col-md-6" id="testimonials">
         <div class="row">
-          <div class="col-md-6">
-            <ul>
-              <li>Convenient Catalog</li>
-              <li>Easy Payment Options</li>
-              <li>Enhance Your Business</li>
-            </ul>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-1"></div>
+          <img class="img-circle" src="photos/claracache.jpg" id="claracache" alt="Customer">
+          <p id="testimonial1">Once again, I'm blown away by the amazing offerings of the API Superstore. You really are SUPER! - Clara&nbsp;Cache</p>
         </div>
-      </div>
-      <div class="col-md-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <button type="button" class="btn btn-signup">Sign Up Now!</button>
         <div class="row">
-          <div class="col-md-4">
-            <img class="img-responsive" src="photos/largearrow.png" alt="Arrow">
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-          </div>
+          <img class="img-circle" src="photos/amyzon.jpg" id="amyzon" alt="Customer">
+          <p id="testimonial2">For a low monthly fee, I'm able to keep up with the churn of information that makes application development so difficult. - Amy&nbsp;Zon</p>
         </div>
-      </div>
-      <div class="col-md-6">
-        <ul>
-          <li>Once again, I'm blown away by the amazing offerings of the API Superstore. You really are SUPER! - Clara Cache</li>
-          <li>For a low monthly fee, I'm able to keep up with the churn of information that makes application development so difficult. - Amy Zon</li>
-          <li>This is the most amazing site ever! - C.P Yu</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <ul>
-          <li>Phone: 206.555.1234</li>
-          <li>Email: info@apisuperstore.com</li>
-          <li>Location: Seattle, Wa</li>
-        </ul>
-      </div>
-      <div class="col-md-6"></div>
-    </div>
-  </div>
+        <div class="row" >
+          <img class="img-circle" src="photos/cpyu.jpg" id="cpyu" alt="Customer">
+          <p id="testimonial3">This is the most amazing site ever! - C.P&nbsp;Yu</p>
+        </div>
+      </aside>
+    </section>
+    <footer class="row">
+      <p id="contact">Contact Phone:206.555.1234 Email:info@apisuperstore.com Location:Seattle,Wa</p>
+    </footer>
 </body>
 
 </html>
